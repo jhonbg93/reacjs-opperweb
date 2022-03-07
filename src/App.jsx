@@ -1,24 +1,32 @@
-import LoginMenu from "./components/LoginMenu";
-import SliderLogin from "./components/SliderLogin";
+
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import Juridica from "./Juridica";
+import Login from "./Login"
+import Natural from "./Natural";
 
 
 
 function App() {
   return (
-    <div >
-        
-      <div className="flex justify-center items-center">
-        <div className="w-full h-screen bg-black text-white flex justify-center items-center">
-          <LoginMenu/>  
-        </div>
-        <div className="w-full h-screen bg-[#3E1149] flex justify-center items-center">
-          <SliderLogin/>        
-        </div>
-      </div>
+    <Router>
+      <Routes>
+        <Route path="/Login" element={<Login />}/>
+        <Route path="/Natural" element={<Natural />}/>
+        <Route path="/Juridica" element={<Juridica />}/>
+       
+      </Routes>
+         
       
       
-    </div>
-  );
+    </Router>
+    
+  )
 }
 
 export default App;

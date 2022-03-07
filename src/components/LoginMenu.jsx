@@ -20,9 +20,9 @@ function LoginMenu(){
             <p className="text-xs">¡Hola, te extrañamos!</p>
             <div className="text-left ">
                 <div><p className="text-xs">Email</p></div>
-                    <Input type='email'/> 
+                    <Input type='email' placeholder="usuario@" name="Email"/> 
                 <div ><p className="text-xs">Contraseña</p></div>
-                <Input type='password'/>
+                <Input type='password' placeholder="password" name="password"/>
                 <div className="text-rigth" ><p className="text-[#E487FB] text-xs "> <a href="/">¿Olvido la contraseña?</a></p></div>
                 <Button/>
             </div>

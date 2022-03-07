@@ -1,6 +1,6 @@
 function Retroceder() {
     return(
-        <div>
+        <div className="z-0">
             <div className="flex">
                 <a href=""><img className="my-0 mx-4" src="image/retroceder/image1.png" alt="logo" /></a>
                 <h2 class="text-2xl font-roboto text-white text-clip ">anime<span className="text-[#CA38ED]">yabu.</span> </h2>

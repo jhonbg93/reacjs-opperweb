@@ -1,3 +1,4 @@
+import Categorias from "./components/Categorias";
 import LogoHome from "./components/LogoHome";
 import Menu from "./components/Menu";
 
@@ -12,7 +13,7 @@ function ListaCategorias(){
                     </div>
                 </div>
                 <div className="w-full h-screen bg-black ">
-                
+                    <Categorias/>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ function MenuFooter(){
                <a href="#"><img className="mx-5 h-10 w-10"src="image/icons/Group98.png" alt="facebook" /></a>
             </div>
             
-            <p className="text-xs">¿Quieres registrarte? <a href="/"><span className="text-[#E487FB]">Registrate</span></a></p>
+            <p className="text-xs">¿Quieres registrarte? <a href="http://localhost:3000/Natural"><span className="text-[#E487FB]">Registrate</span></a></p>
             
         </div>
     )

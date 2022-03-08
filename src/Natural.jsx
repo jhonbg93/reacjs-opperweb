@@ -2,6 +2,7 @@ import Retroceder from "./components/Retroceder";
 import SliderLogin from "./components/SliderLogin";
 import LogoFormularios from "./components/LogoFormularios"
 import MenuFooter from "./components/MenuFooter";
+import ButtonRegistrar from "./components/ButtonRegistrar";
 function Natural(){
     return(
         <div className="flex">
@@ -12,12 +13,23 @@ function Natural(){
                        <LogoFormularios/>
                       
                     </div>
-                    <div className="pt-10" >
-                           <label className="text-xs text-left">Name</label><br />
-                           <input className="bg-white rounded" type="text" />
-                           <label className="text-xs text-left ">Name</label><br />
-                           <input className="bg-white rounded" type="text" />
-                      </div>
+                    <div className="pt-10 text-xs text-left mx-6" >
+                           <label>Nombre</label><br />
+                           <input className="bg-[#787878] border borde-white rounded h-8 w-60" type="text" /><br />
+                           <label>Apellido</label><br />
+                           <input className="bg-[#787878] border borde-white rounded h-8 w-60" type="text" /><br />
+                           <label>Telefono</label><br />
+                           <input className="bg-[#787878] border borde-white rounded h-8 w-60" type="number" /><br />
+                           <label>Numero de identificación</label><br />
+                           <input className="bg-[#787878] border borde-white rounded h-8 w-60" type="number" /><br />
+                           <label>Email</label><br />
+                           <input className="bg-[#787878] border borde-white rounded h-8 w-60" type="email" placeholder="usuario@yabu.com" /><br />
+                           <label>Contraseña</label><br />
+                           <input className="bg-[#787878] border borde-white rounded h-8 w-60" type="email" placeholder="********" /><br />
+                           <label>Confirmar contraseña</label><br />
+                           <input className="bg-[#787878] border borde-white rounded h-8 w-60" type="email" placeholder="********" /><br />
+                           <ButtonRegistrar/>                     
+                        </div>
                     <div className="mb-96">
                         <MenuFooter/>
                     </div>

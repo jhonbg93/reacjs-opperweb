@@ -12,6 +12,7 @@ import Natural from "./Natural";
 import Home from "./Home";
 import ListaCategorias from "./ListaCategorias";
 import ActualizarCategoria from "./ActualizarCategoria";
+import CrearCategoria from "./CrearCategoria";
 
 
 
@@ -23,8 +24,9 @@ function App() {
         <Route path="/Natural" element={<Natural />}/>,
         <Route path="/Juridica" element={<Juridica />}/>,
         <Route path="/Home" element={<Home/>}/>,
-        <Route path="/ListaCategorias" element={<ListaCategorias/>}/>    
-        <Route path="/ActualizarCategoria" element={<ActualizarCategoria/>}/> 
+        <Route path="/ListaCategorias" element={<ListaCategorias/>}/>,    
+        <Route path="/ActualizarCategoria" element={<ActualizarCategoria/>}/>,
+        <Route path="/CrearCategoria" element={<CrearCategoria/>}/>
       </Routes>
          
       

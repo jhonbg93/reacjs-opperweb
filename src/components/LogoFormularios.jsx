@@ -6,7 +6,7 @@ function LogoFormularios(){
                     <img className="w-20" src="image/logoformularios/logo.png" alt="logo" />
                 </div>
                 <div className="my-5 h-5">
-                <p className="text-3xl	">ようこそ!</p>
+                <p className="text-3xl	"><b>ようこそ!</b></p>
                 <p className="text-xs ">Bienvenidos(a)!</p>
                 </div>
             </div>

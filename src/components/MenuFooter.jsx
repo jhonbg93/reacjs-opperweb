@@ -1,6 +1,6 @@
 function MenuFooter(){
     return(
-        <div className="my-6">
+        <div >
             <p className="text-xs"><hr />Regístrate también con</p>
             <div className="flex mx-5 ">
                <a href="#"><img className="mx-5" src="image/icons/Group100.png" alt="instagram" /></a>

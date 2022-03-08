@@ -6,7 +6,7 @@ function Login() {
     <div >
         
       <div className="flex justify-center items-center">
-        <div className="w-full h-screen bg-black text-white flex justify-center items-center">
+        <div className="w-full h-screen bg-black text-white flex ">
           <LoginMenu/>  
         </div>
         <div className="w-full h-screen bg-[#3E1149] flex justify-center items-center">

@@ -6,12 +6,12 @@ import Retroceder from "./Retroceder"
 
 function LoginMenu(){
     return(
-        <div className="text-center">
+        <div className="text-center justify-content">
             <div className="content-start">
                 <Retroceder/>
             </div>
-            <div className="">
-                <img src="image/loginMenu/loginmenu.png" alt="" />
+            <div className="justify-content">
+                <img src="image/loginMenu/loginmenu.png" alt="logo" />
             </div>
             <div>
                 <p className="text-3x1">ひさしぶり!</p>
@@ -22,7 +22,7 @@ function LoginMenu(){
                 <div><p className="text-xs">Email</p></div>
                     <Input type='email' placeholder="usuario@" name="Email"/> 
                 <div ><p className="text-xs">Contraseña</p></div>
-                <Input type='password' placeholder="password" name="password"/>
+                    <Input type='password' placeholder="password" name="password"/>
                 <div className="text-rigth" ><p className="text-[#E487FB] text-xs "> <a href="/">¿Olvido la contraseña?</a></p></div>
                 <Button/>
             </div>

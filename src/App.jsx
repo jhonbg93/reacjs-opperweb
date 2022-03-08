@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Login" element={<Login />}/>,
+        <Route path="/" element={<Login />}/>,
         <Route path="/Natural" element={<Natural />}/>,
         <Route path="/Juridica" element={<Juridica />}/>,
         <Route path="/Home" element={<Home/>}/>,

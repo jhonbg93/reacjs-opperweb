@@ -9,7 +9,7 @@ function Menu(){
                      <a href="#"><li>Crear</li></a>
                     </ul>
                 </div>
-                <p className="my-10"><b>Cerrar Sesión</b></p>
+                <a href="http://localhost:3000/"><p className="my-10"><b>Cerrar Sesión</b></p></a>
                 
             </div>
             

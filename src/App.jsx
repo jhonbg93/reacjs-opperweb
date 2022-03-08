@@ -9,6 +9,8 @@ import {
 import Juridica from "./Juridica";
 import Login from "./Login"
 import Natural from "./Natural";
+import Home from "./Home";
+import ListaCategorias from "./ListaCategorias";
 
 
 
@@ -16,10 +18,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Login" element={<Login />}/>
-        <Route path="/Natural" element={<Natural />}/>
-        <Route path="/Juridica" element={<Juridica />}/>
-       
+        <Route path="/Login" element={<Login />}/>,
+        <Route path="/Natural" element={<Natural />}/>,
+        <Route path="/Juridica" element={<Juridica />}/>,
+        <Route path="/Home" element={<Home/>}/>,
+        <Route path="/ListaCategorias" element={<ListaCategorias/>}/>     
       </Routes>
          
       
